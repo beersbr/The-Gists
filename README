@@ -1,0 +1,8 @@
+This is the gists repo. All of the gists are included and a rakefile (ruby make) is included
+so that you can make each one easily. This is going to be the list of them as they will appear 
+in the rake file just for convenience.
+
+rake task 		=> file
+bit_fields		=> bit_fields.cpp
+templess_swap	=> templess_swap.cpp
+text_to_binary 	=> text_to_binary.cpp 

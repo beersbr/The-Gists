@@ -1,0 +1,19 @@
+
+task :bit_fields do
+  puts "Building bit_fields"
+  exec "g++ bit_fields.cpp -o bitfields"
+end
+
+task :templess_swap do
+  puts "Building templess_swap"
+  exec "g++ templess_swap.cpp -o templess_swap"
+end
+
+task :text_to_binary do
+  puts "Building text_to_binary"
+  exec "g++ text_to_binary.cpp -o text_to_binary"
+end
+
+task :complete do
+  #TODO
+end
