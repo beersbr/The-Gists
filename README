@@ -5,4 +5,8 @@ in the rake file just for convenience.
 rake task 		=> file
 bit_fields		=> bit_fields.cpp
 templess_swap	=> templess_swap.cpp
-text_to_binary 	=> text_to_binary.cpp 
+text_to_binary 	=> text_to_binary.cpp
+pre_vs_post		=> pre_vs_post.cpp 
+
+CHANGES:
+	> Made the executables .gst just so it is easier to delete them later.

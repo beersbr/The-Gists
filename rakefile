@@ -1,17 +1,22 @@
 
 task :bit_fields do
   puts "Building bit_fields"
- `g++ bit_fields.cpp -o bitfields`
+ `g++ bit_fields.cpp -o bitfields.gst`
 end
 
 task :templess_swap do
   puts "Building templess_swap"
-  `g++ templess_swap.cpp -o templess_swap`
+  `g++ templess_swap.cpp -o templess_swap.gst`
 end
 
 task :text_to_binary do
   puts "Building text_to_binary"
-  `g++ text_to_binary.cpp -o text_to_binary`
+  `g++ text_to_binary.cpp -o text_to_binary.gst`
+end
+
+task :pre_vs_post do
+  puts "Building pre_vs_post"
+  `g++ pre_vs_post.cpp -o pre_vs_post.gst`
 end
 
 task :all do
@@ -21,7 +26,5 @@ task :all do
 end
 
 task :clean do
-  `rm text_to_binary`
-  `rm bitfields`
-  `rm templess_swap`
+  `rm *.gst`
 end
