@@ -2,11 +2,13 @@ This is the gists repo. All of the gists are included and a rakefile (ruby make)
 so that you can make each one easily. This is going to be the list of them as they will appear 
 in the rake file just for convenience.
 
-rake task 		=> file
-bit_fields		=> bit_fields.cpp
-templess_swap	=> templess_swap.cpp
-text_to_binary 	=> text_to_binary.cpp
-pre_vs_post		=> pre_vs_post.cpp 
+rake task=> file
+bit_fields => bit_fields.cpp
+templess_swap => templess_swap.cpp
+text_to_binary => text_to_binary.cpp
+pre_vs_post => pre_vs_post.cpp
+virtual_functions => virtual_functions.cpp
 
 CHANGES:
+	> Added virtual functions demonstration
 	> Made the executables .gst just so it is easier to delete them later.

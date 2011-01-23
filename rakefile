@@ -19,6 +19,11 @@ task :pre_vs_post do
   `g++ pre_vs_post.cpp -o pre_vs_post.gst`
 end
 
+task :virtual_functions do
+  puts "Building virtual_functions"
+  `g++ virtual_functions.cpp -o virtual_functions.gst`
+end
+
 task :all do
   Rake::Task.tasks.each do |t|
     t.invoke
