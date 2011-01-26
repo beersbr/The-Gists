@@ -24,6 +24,11 @@ task :virtual_functions do
   `g++ virtual_functions.cpp -o virtual_functions.gst`
 end
 
+task :polymorphism do
+  puts "Building polymorphism"
+  `g++ polymorphism.cpp -o polymorphism.gst`
+end
+
 task :all do
   Rake::Task.tasks.each do |t|
     t.invoke
